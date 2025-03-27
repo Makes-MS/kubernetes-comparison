@@ -1,0 +1,10 @@
+apeVersion: v1
+kind: Pod
+metadata:
+  name: my-pod
+spec:
+  container:
+    - name: my-container
+      image: nginx:latest
+      ports:
+        - containerPort: 80
